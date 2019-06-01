@@ -1,0 +1,22 @@
+.works {
+	background: linear-gradient(to top, rgba(0,0,0, .4), rgba(0,0,0, .4)), url('../images/works-bg.jpg');
+	height: 850px;
+	font: 16px/28px;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+	text-align: center;
+
+	&__title {
+		font-family: 'Oswald', sans-serif;	
+				font-size: 40px;
+	}
+
+	&__pic {
+		margin-bottom: -45px;
+		padding: 75px;
+	}
+}
+
